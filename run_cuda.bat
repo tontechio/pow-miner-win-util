@@ -7,6 +7,8 @@ if "%USE_LOG%"=="Y" (
   set "LOG=2>&1 >> %LOG_FILE%"
 )
 
+title GPU %GPU_ID% CUDA log=%USE_LOG%
+
 echo on
 :_minerstart
 tonlib-cuda-cli.exe -V

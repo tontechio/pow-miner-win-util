@@ -7,6 +7,8 @@ if "%USE_LOG%"=="Y" (
   set "LOG=2>&1 >> %LOG_FILE%"
 )
 
+title GPU %GPU_ID% OpenCL log=%USE_LOG%
+
 echo on
 :_minerstart
 tonlib-opencl-cli.exe -V
