@@ -10,7 +10,7 @@ Requirements: you must have miner binaries in your system, see https://github.co
 - `test_cuda.bat` - run performance test for Nvidia GPU
 - `run_cuda.bat` - run miner for Nvidia GPU
 - `test_opencl.bat` - run performance test for AMD GPU
-- `run_opencl.bat` - run miner for Nvidia GPU
+- `run_opencl.bat` - run miner for AMD GPU
 
 ### Usage
 
