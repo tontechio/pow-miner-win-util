@@ -15,3 +15,4 @@ tonlib-cuda-cli.exe -V
 tonlib-cuda-cli.exe -v 3 -C %CONFIG_FILE% -e "pminer start %GIVER_ADDR% %MY_ADDR% %GPU_ID% %BOOST_FACTOR%" %LOG%
 goto _minerstart
 
+pause

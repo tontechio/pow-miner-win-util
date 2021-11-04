@@ -14,3 +14,6 @@ echo on
 tonlib-opencl-cli.exe -V
 tonlib-opencl-cli.exe -v 3 -C %CONFIG_FILE% -e "pminer start %GIVER_ADDR% %MY_ADDR% %GPU_ID% %BOOST_FACTOR%" %LOG%
 goto _minerstart
+
+pause
+
