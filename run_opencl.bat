@@ -4,7 +4,7 @@ for /F "tokens=*" %%I in (run_config.ini) do set %%I
 
 set "LOG="
 if "%USE_LOG%"=="Y" (
-  set "-l %LOG_FILE%"
+  set "LOG=-l %LOG_FILE%"
 )
 
 title GPU %GPU_ID% OpenCL log=%USE_LOG%
