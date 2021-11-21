@@ -22,7 +22,7 @@ Requirements: you must have miner binaries in your system, see https://github.co
 
 ### run_config.ini
 
-- `GIVER_ADDR`: one of giver-contract address, choose one from [https://ton.org/mining](https://ton.org/mining)
+- `GIVER_ADDR`: `auto` / `random` strategy name or constant giver-contract address, choose one from [https://ton.org/mining](https://ton.org/mining)
 - `MY_ADDR`: your personal wallet address, get wallet app from [https://ton.org/wallets](https://ton.org/wallets) and create a wallet
 - `GPU_ID`: your GPU for multi-gpu systems. First GPU comes with `GPU_ID=0`, second with `GPU_ID=1`, etc
 - `GPU_PLATFORM_ID`: this is related to OpenCL (AMD) only. Check your driver stats and/or dry-run the miner - it will show which platform number and gpu id is available
